@@ -81,7 +81,59 @@ a:active {
   text-decoration: underline;
 }
 
+.button {
+  display: inline-block;
+  background-color: #D8BFD8;
+  color: #white	 !important;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.2s opacity;
+}
+
+.button:hover{
+  color: inherit;
+  background-color: #1751d9;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button:active {
+  background-color: #1751D9;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+.button.skype {
+  display: inline-block;
+  background-color: transparent;
+  color: #006994 !important;
+  padding: 15px 30px;
+  border-radius: 50px;color: #1751D9
+  text-transform: uppercase;
+  border: 2px solid #006994;
+}
+
+.button.skype:hover {
+  background-color: #006994;
+  color: #fff !important;
+}
+
+.button.skype:active {
+  background-color: #006994;
+  color: #0000;
+}
 /*
 layout styling-general
 */
 img {width: 100%}
+
+.button-wrapper {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.button-wrapper-left {
+  text-align: left;
+  margin: 30px 0;
+}
