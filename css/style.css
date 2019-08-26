@@ -1,0 +1,87 @@
+/*
+Colors used:
+Hex#8140A2
+Hex#d75e60
+Hex#4d5bee
+*/
+/*
+Fonts and headings
+*/
+body {background-color: white;
+font-family: 'Livvic', sans-serif;
+font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:#A9A9A9;
+  text-align: left;
+}
+.bold {
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+  }
+
+  h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+  text-align: center;
+  color:#000000
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align: left;
+  color:#000000
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+  text-align: left;
+  color:#000000
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+  text-align: left;
+  color:#000000
+}
+
+/*
+buttons and links
+*/
+a {
+  background-color: inherit;
+  color: ##1751d9;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: inherit;
+  color: #4E2C3C;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  background-color: inherit;
+  color: ##1751d9;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: inherit;
+  color: #333;
+  text-decoration: underline;
+}
+
+/*
+layout styling-general
+*/
+img {width: 100%}
