@@ -7,6 +7,7 @@ Hex#4d5bee
 /*
 Fonts and headings
 */
+
 body {background-color: white;
 font-family: 'Livvic', sans-serif;
 font-size: 16px;
@@ -14,6 +15,7 @@ font-size: 16px;
   line-height: 1.6;
   color:#A9A9A9;
   text-align: left;
+  padding: 25px
 }
 .bold {
   font-weight: 700;
@@ -104,7 +106,7 @@ a:active {
   opacity: 0.8;
 }
 
-.button.skype {
+.button-skype {
   display: inline-block;
   background-color: transparent;
   color: #006994 !important;
@@ -114,26 +116,18 @@ a:active {
   border: 2px solid #006994;
 }
 
-.button.skype:hover {
+.button-skype:hover {
   background-color: #006994;
   color: #fff !important;
 }
 
-.button.skype:active {
+.button-skype:active {
   background-color: #006994;
   color: #0000;
 }
 /*
 layout styling-general
 */
-img {width: 100%}
-
-.button-wrapper {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.button-wrapper-left {
-  text-align: left;
-  margin: 30px 0;
-}
+img {width: 75%}
+.logo{max-height: 90px;
+  max-width: 90px;}
