@@ -130,4 +130,5 @@ layout styling-general
 */
 img {width: 75%}
 .logo{max-height: 90px;
-  max-width: 90px;}
+  max-width: 90px;
+padding: 25px}
