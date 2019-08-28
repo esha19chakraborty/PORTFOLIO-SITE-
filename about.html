@@ -46,7 +46,7 @@
       -->
       </div>
     </header>
-    <div class="hero">
+    <div id="hero">
       <div>
         <h1>
           About me
@@ -54,9 +54,12 @@
       </div>
     </div>
     <div>
-      <img src="img/about/profilepic.jpg" alt="Profile Pic">
+      <picture>
+        <source srcset="img/about/profilepic.jpg" media="(max-width:767px)">
+        <img class=profilepic src="img/about/profilepic.jpg" alt="Profile Pic">
+      </picture>
     </div>
-    <div>
+    <div id="body">
       <p>
         I’m a writer turned UX Designer with more than five years of experience in using the written word to drive business efficiency. My passion, curiosity and keen power of observing human behavior drew me to UX Design. I enjoy observing human
         behavior and studying what makes people different from each other, what governs their actions and what biases they form.
