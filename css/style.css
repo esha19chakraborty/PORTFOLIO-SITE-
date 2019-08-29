@@ -136,8 +136,29 @@ padding: 25px}
 .profilepic{max-width:400px;
 max-height:800px}
 
-.problemstatement{max-width:150px;
-max-height:200px}
+.problemstatement{
+max-width:150px;
+max-height:200px
+}
 
 .userresearch{max-width:400px;
-max-height: 300px}
+max-height: 300px;
+}
+
+.raziayoungmom{max-width:800px;
+max-height:800px;
+}
+
+.linaworkingmom{max-width:800px;
+max-height:800px;
+}
+
+.raziauserjourney{max-width: 900px;
+max-height:900px;
+}
+
+.linauserjourney{max-width:900px;
+max-height:900px}
+
+.sitemap{max-width:900px;
+max-height:900px}
