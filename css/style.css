@@ -133,5 +133,11 @@ img {width: 100%}
   max-width: 90px;
 padding: 25px}
 
-.profilepic{width:50%;
-max-height: 15%}
+.profilepic{max-width:400px;
+max-height:800px}
+
+.problemstatement{max-width:150px;
+max-height:200px}
+
+.userresearch{max-width:400px;
+max-height: 300px}
