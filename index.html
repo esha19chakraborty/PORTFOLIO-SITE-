@@ -3,49 +3,42 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
   <title> HOME PAGE
   </title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
   <header>
     <div id="home" class="container">
-      <img class="logo" src="img/nav/logo.png" alt="Esha Chakraborty portfolio">
-      <!--
+      <div class="navtoggle" id="myNavtoggle">
+        <img class="logo" src="img/nav/logo.png" alt="Esha Chakraborty portfolio">
+        <!--
                   <p>
                     "I love to solve problems creatively. I am a keen observer of human nature which helps me come up with user friendly experiences.I believe in innovation with passion!"
                   </p>
                 -->
+        <!--
+        <table>
+          <tr>
+            <td>
+            -->
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#indexcontact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
 
-      <table>
-        <tr>
-          <td>
-            <nav>
-              <ul class="navigation">
-                <a href="index.html">Work</a>
-              </ul>
-            </nav>
-          </td>
-          <td>
-            <nav>
-              <ul>
-                <a href="about.html">About</a>
-              </ul>
-            </nav>
-          </td>
-          <td>
-            <nav>
-              <ul>
-                <a href="#indexcontact">Contact</a>
-              </ul>
-            </nav>
-          </td>
-        </tr>
-      </table>
+      </div>
     </div>
 
   </header>
@@ -99,13 +92,12 @@
               site architecture.
             </p>
           </div>
-          <div clear:both>
 
-            <nav>
-              <a href="askamom.html" class="button">For more information click here</a>
-            </nav>
+          <nav>
+            <a href="askamom.html" class="button">For more information click here</a>
+          </nav>
 
-          </div>
+
         </div>
       </div>
     </div>
@@ -114,7 +106,7 @@
     <div class="container" id="animation">
       <h3> CSS Animation </h3>
       <!-- Image column-->
-      <svg xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" max-width:100% viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
           <polygon id="a" points=".06 231.917 .06 .929 688.717 .929 688.717 231.917" />
         </defs>
@@ -1101,6 +1093,7 @@
       <span>All rights reserved.</span>
     </p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js">
   </script>
 </body>
