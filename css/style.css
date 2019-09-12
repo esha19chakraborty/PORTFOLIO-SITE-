@@ -320,6 +320,8 @@ nav > ul {
   margin: 0;
 }
 
+
+
 nav > ul >li> a {
   padding: 0 15px;
 
@@ -370,6 +372,7 @@ nav > ul >li> a:active {
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
+
 
 
 footer {
@@ -440,7 +443,7 @@ body>h2{}
         margin: 1em 0;
       }
 
-nav> ul> a {display: inline-block;}
+nav> ul> li {display: inline-block;}
 
 .navtoggle li:not(:last-child) {
   display: inline-block;
