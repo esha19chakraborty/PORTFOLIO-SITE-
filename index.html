@@ -40,7 +40,7 @@
           <td>
             <nav>
               <ul>
-                <a href="contact">Contact</a>
+                <a href="#indexcontact">Contact</a>
               </ul>
             </nav>
           </td>
@@ -71,23 +71,24 @@
           My Work
         </h2>
         <div class="row">
+
           <h3>
             UX Design
           </h3>
-          <div>
+          <div class="row">
             <h4>
               Ask a Mom
             </h4>
           </div>
         </div>
         <div id="work">
-          <div class="row">
-            <div class="column col-md-6 col-lg-7">
-              <picture>
-                <source srcset="img/home/askamom.collage.001.jpeg" media="(max-width:767px)">
-                <img src="img/home/askamom.collage.001.jpeg" alt="User Research">
-              </picture>
-            </div>
+
+          <div class="column col-md-6 col-lg-7">
+            <picture>
+              <source srcset="img/home/askamom.collage.001.jpeg" media="(max-width:767px)">
+              <img id="askamompagecollage" src="img/home/askamom.collage.001.jpeg" alt="User Research">
+            </picture>
+
           </div>
           <div>
             <p>
@@ -98,10 +99,12 @@
               site architecture.
             </p>
           </div>
-          <div>
+          <div clear:both>
+
             <nav>
               <a href="askamom.html" class="button">For more information click here</a>
             </nav>
+
           </div>
         </div>
       </div>
@@ -111,7 +114,7 @@
     <div class="container" id="animation">
       <h3> CSS Animation </h3>
       <!-- Image column-->
-      <svg xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" height="505" viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" max-width:100% viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
           <polygon id="a" points=".06 231.917 .06 .929 688.717 .929 688.717 231.917" />
         </defs>
@@ -1050,8 +1053,13 @@
 
       </svg>
     </div>
+    <div class="container">
+      <p>
+        Keyframes were used to create an animation. In the image above, the clouds should be moving and the color of the Sun should change gradually.
+      </p>
+    </div>
   </main>
-  <footer id="contact">
+  <footer id="indexcontact">
     <div class="container">
       <h2>
         Let's get connected!
