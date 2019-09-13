@@ -61,31 +61,33 @@ h4 {
   color:#000000
 }
 
+
+
 footer {color:#fff}
 /*
 buttons and links
 */
 a {
-  background-color: inherit;
+  background-color: d3d3d3;
   color: ##1751d9;
   text-decoration: none;
 }
 
 a:visited {
-  background-color: inherit;
+  background-color: d3d3d3;
   color: #4E2C3C;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  background-color: inherit;
+  background-color: d3d3d3;
   color: ##1751d9;
   text-decoration: underline;
 }
 
 a:active {
-  background-color: inherit;
+  background-color: d3d3d3;
   color: #333;
   text-decoration: underline;
 }
@@ -265,8 +267,12 @@ header>.container>img {
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 
 #hero {
-  text-align:center; /* Centers text */
-}
+  padding: 50px 0;
+  display: inline-block;
+  width: 100%;
+  text-align:center;}
+   /* Centers text */
+
 
 #aboutcontact {margin-block-start: 350px}
 
@@ -327,7 +333,7 @@ nav > ul >li> a {
 
   text-transform: uppercase;
   font-weight: 600;
-  color: #FFF !important;
+  color: #ffffff !important;
 }
 nav>ul>li>a:visited {
   color: #000;
@@ -365,6 +371,8 @@ nav > ul >li> a:active {
 
 .navtoggle.responsive li {
   display: block;
+  background-color: #148e797d;
+
   padding: 10px 0;
   border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
@@ -436,7 +444,7 @@ body>h2{}
     nav {
       width: auto;
       float: right
-      margin-top: 4px;
+
     }
 
     nav>ul {
@@ -466,7 +474,9 @@ nav> ul> li {display: inline-block;}
 
     #hero span {
   display: block;
+  position:static;
 }
+
 .col-md-6 {
   width: 50%;
 }
