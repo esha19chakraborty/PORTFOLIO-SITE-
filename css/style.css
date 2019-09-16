@@ -70,7 +70,9 @@ buttons and links
 a {
   background-color: d3d3d3;
   color: ##1751d9;
-  text-decoration: none;
+  text-decoration: none
+
+
 }
 
 a:visited {
@@ -95,6 +97,7 @@ a:active {
 
 .button {
   display: inline-block;
+  margin:0 auto;
   background-color: #006994;
   color: #fff	 !important;
   font-weight: 400;
@@ -103,13 +106,14 @@ a:active {
   text-decoration: none;
   transition-duration: 0.2s;
   transition-property: opacity;
+
 }
 
 .button:hover{
   color: inherit;
   background-color: #006994;
   opacity: 0.5;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .button:active {
   background-color: #006994;
@@ -139,6 +143,8 @@ a:active {
   background-color: #006994;
   color: #0000;
 }
+
+
 /*
 layout styling-general
 */
@@ -236,11 +242,13 @@ border-bottom: 3px solid #4a4a4a;
   padding: 10px 15px;
   max-width: 1200px;
   margin: 0 auto;
+
 }
 
 .container-filled {
   background: #20B2AA;
   padding: 20px;
+
 }
 
 header>.container>img {
@@ -288,6 +296,7 @@ header>.container>img {
 #animation {
   padding-top: 200px;
 }
+
 
 header {
   background-color: #20B2AA;
@@ -397,7 +406,7 @@ footer {
 #aboutcontact {  margin-block-start:580px;
 }
 
-#indexcontact {  margin-block-start:100px;
+#indexcontact {  margin-block-start:400px;
 }
 
 #aboutcontact h2 { color:#ffffff}
@@ -422,6 +431,8 @@ footer>.container>p>a:active {
 footer>.container>h2 {
   color:#ffffff
 }
+
+
 
 /*
 About Me- about.html
@@ -476,6 +487,8 @@ nav> ul> li {display: inline-block;}
   display: block;
   position:static;
 }
+
+
 
 .col-md-6 {
   width: 50%;
