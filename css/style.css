@@ -168,7 +168,7 @@ img {
   width: 25%;
   float: left;
   display: inline-block;
-  padding: 25px;
+  padding: 15px;
 }
 
 svg.animated {
@@ -302,7 +302,7 @@ header > .container > img {
 }
 
 #hero {
-  margin-top: 90px;
+  margin-top: 70px;
   display: inline-block;
   position: sticky;
   width: 100%;
@@ -311,9 +311,7 @@ header > .container > img {
 
 /* Centers text */
 
-#aboutcontact {
-  margin: 350px;
-}
+
 
 #askamombutton {
   align-items: center;
@@ -327,9 +325,7 @@ header > .container > img {
   padding: 20px 0;
 }
 
-#animation {
-  padding-top: 200px;
-}
+
 
 header {
   background-color: #20b2aa;
@@ -434,15 +430,6 @@ footer {
   box-shadow: 0 1px 2px 0 rgba(46, 48, 46, 0.5);
 }
 
-#aboutcontact {
-  margin-top: 580px;
-  margin-left: auto;
-}
-
-#indexcontact {
-  margin-top: 450px;
-  margin-left: auto;
-}
 
 #aboutcontact h2 {
   color: #fff;
@@ -550,6 +537,10 @@ body > p {
     float: left;
     padding: 10px 15px;
   }
+
+  #animation {
+    padding-top: 200px;
+  }
 }
 
 /* ==============================
@@ -594,5 +585,15 @@ Large devices (1024px or larger)
     text-align: left;
     padding: 0;
     padding-bottom: 10px;
+  }
+
+  #indexcontact {
+    margin-top: 450px;
+    margin-left: auto;
+  }
+
+  #aboutcontact {
+    margin-top: 580px;
+    margin-left: auto;
   }
 }
