@@ -302,7 +302,7 @@ header > .container > img {
 }
 
 #hero {
-  padding: 50px 0;
+  margin-top: 90px;
   display: inline-block;
   position: sticky;
   width: 100%;
@@ -359,6 +359,9 @@ header > a {
 nav {
   width: auto;
   float: right;
+  position: absolute;
+  top: 0%;
+  right: 20px;
 }
 
 nav > ul {
@@ -450,6 +453,8 @@ footer {
   margin-left: auto;
 }
 
+#navtoggle { z-index: 10; }
+
 footer > .container > p > a {
   color: #fff;
   font-weight: 700;
@@ -491,7 +496,10 @@ body > p {
   nav {
     width: auto;
     float: right;
-  }
+    position: absolute;
+    top: 20px;
+    right: 0;
+    }
 
   nav > ul {
     margin: 1em 0;
@@ -524,6 +532,7 @@ body > p {
     display: block;
     position: static;
   }
+
 
   .col-md-6 {
     width: 50%;
