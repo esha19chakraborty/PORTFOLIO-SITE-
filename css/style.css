@@ -421,6 +421,7 @@ nav > ul > li > a:active {
 
 footer {
   background-color: #20b2aa;
+  display: inline-block;
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -588,12 +589,12 @@ Large devices (1024px or larger)
   }
 
   #indexcontact {
-    margin-top: 450px;
+    margin-top: 200px;
     margin-left: auto;
   }
 
   #aboutcontact {
-    margin-top: 580px;
+    margin-top: 100px;
     margin-left: auto;
   }
 }
