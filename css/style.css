@@ -543,7 +543,9 @@ body > p {
     padding-top: 200px;
   }
 
-  #indexcontact { display: inline-block;
+  #indexcontact {
+    display: inline-block;
+    margin-top: 200px;
   }
 }
 
