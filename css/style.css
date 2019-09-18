@@ -40,6 +40,7 @@ h1 {
   font-weight: 500;
   text-align: center;
   color: #000;
+  display: grid;
 }
 
 h2 {
@@ -167,7 +168,7 @@ img {
   width: 25%;
   float: left;
   display: inline-block;
-  padding: 25px;
+  padding: 15px;
 }
 
 svg.animated {
@@ -301,17 +302,16 @@ header > .container > img {
 }
 
 #hero {
-  padding: 50px 0;
+  margin-top: 70px;
   display: inline-block;
+  position: sticky;
   width: 100%;
   text-align: center;
 }
 
 /* Centers text */
 
-#aboutcontact {
-  margin: 350px;
-}
+
 
 #askamombutton {
   align-items: center;
@@ -325,9 +325,7 @@ header > .container > img {
   padding: 20px 0;
 }
 
-#animation {
-  padding-top: 200px;
-}
+
 
 header {
   background-color: #20b2aa;
@@ -357,6 +355,9 @@ header > a {
 nav {
   width: auto;
   float: right;
+  position: absolute;
+  top: 0%;
+  right: 20px;
 }
 
 nav > ul {
@@ -429,15 +430,6 @@ footer {
   box-shadow: 0 1px 2px 0 rgba(46, 48, 46, 0.5);
 }
 
-#aboutcontact {
-  margin-top: 580px;
-  margin-left: auto;
-}
-
-#indexcontact {
-  margin-top: 450px;
-  margin-left: auto;
-}
 
 #aboutcontact h2 {
   color: #fff;
@@ -447,6 +439,8 @@ footer {
   margin-top: 80px;
   margin-left: auto;
 }
+
+#navtoggle { z-index: 10; }
 
 footer > .container > p > a {
   color: #fff;
@@ -489,7 +483,10 @@ body > p {
   nav {
     width: auto;
     float: right;
-  }
+    position: absolute;
+    top: 20px;
+    right: 0;
+    }
 
   nav > ul {
     margin: 1em 0;
@@ -523,6 +520,7 @@ body > p {
     position: static;
   }
 
+
   .col-md-6 {
     width: 50%;
   }
@@ -538,6 +536,10 @@ body > p {
   [class*="col-"] {
     float: left;
     padding: 10px 15px;
+  }
+
+  #animation {
+    padding-top: 200px;
   }
 }
 
@@ -583,5 +585,15 @@ Large devices (1024px or larger)
     text-align: left;
     padding: 0;
     padding-bottom: 10px;
+  }
+
+  #indexcontact {
+    margin-top: 450px;
+    margin-left: auto;
+  }
+
+  #aboutcontact {
+    margin-top: 580px;
+    margin-left: auto;
   }
 }
