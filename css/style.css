@@ -542,6 +542,9 @@ body > p {
   #animation {
     padding-top: 200px;
   }
+
+  #indexcontact { display: inline-block;
+  }
 }
 
 /* ==============================
